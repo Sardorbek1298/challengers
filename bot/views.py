@@ -20,6 +20,7 @@ class UpdateBot(APIView):
 def start(message):
     bot.send_message(message.chat.id, 'Hi', reply_markup=start_buttons())
 
+
 def start_buttons():
     key = ReplyKeyboardMarkup(True, False)
     button1 = KeyboardButton('About')
@@ -31,5 +32,12 @@ def start_buttons():
     key.add(button3, button4)
     key.add(button5)
     return key
+
+@bot.message_handler(content_types='text')
+def function_text(message):
+    if message.text == 'About':
+        bot.send_message(message.chat.id, '📈About')
+
+
 
 
