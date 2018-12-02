@@ -1,5 +1,6 @@
 from django.shortcuts import render
 import json
+from about.models import Hospital
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from telebot.types import ReplyKeyboardMarkup,ReplyKeyboardRemove,KeyboardButton,InlineKeyboardButton,InlineKeyboardMarkup
@@ -37,7 +38,11 @@ def start_buttons():
 @bot.message_handler(content_types='text')
 def function_text(message):
     if message.text == 'About':
-        bot.send_message(message.chat.id, '📈About')
+        x = Hospital.objects.all()
+        for i in x:
+            data = "Name" + i.name + "\n" + "Address" + i.address + "\n" + "Number" + i.number
+
+        bot.send_message(message.chat.id, data)
 
 
 
