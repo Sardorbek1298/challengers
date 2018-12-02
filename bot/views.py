@@ -16,6 +16,10 @@ class UpdateBot(APIView):
         return Response({'code': 200})
 
 
+@bot.message_handler(commands=['start'])
+def start(message):
+    bot.send_message(message.chat.id, 'Hi', reply_markup=start_buttons())
+
 def start_buttons():
     key = ReplyKeyboardMarkup(True, False)
     button1 = KeyboardButton('About')
@@ -29,6 +33,3 @@ def start_buttons():
     return key
 
 
-@bot.message_handler(commands=['start'])
-def start(message):
-    bot.send_message(message.chat.id,'Hi', reply_markup=start_buttons())
