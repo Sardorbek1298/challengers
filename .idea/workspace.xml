@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e90837c2-5ca3-46c8-b817-ff39d11b006e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/bot/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+            <state relative-caret-position="249">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -108,11 +107,6 @@
           <expand>
             <path>
               <item name="hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hospital" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hospital" type="462c0819:PsiDirectoryNode" />
               <item name="hospital" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -174,25 +168,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543730579209</updated>
-      <workItem from="1543730588042" duration="2516000" />
+      <workItem from="1543730588042" duration="2893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2516000" />
+    <option name="totallyTimeSpent" value="2893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.23941368" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.39413682" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -248,8 +242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bot/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="249">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

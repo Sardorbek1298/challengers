@@ -33,10 +33,12 @@ def start_buttons():
     key.add(button5)
     return key
 
+
 @bot.message_handler(content_types='text')
 def function_text(message):
     if message.text == 'About':
         bot.send_message(message.chat.id, '📈About')
+
 
 
 
